@@ -5,7 +5,6 @@ on: push
 jobs:
   hello-world-job:
   runs-on: ubuntu-latest
-
   steps:
    - name: checkout repository code
      uses: actions/checkout@v3
